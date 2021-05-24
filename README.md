@@ -1,4 +1,4 @@
-# Uniswap SDK Core
+# Unigem SDK Core
 
 [![Unit Tests](https://github.com/Uniswap/uniswap-sdk-core/workflows/Unit%20Tests/badge.svg)](https://github.com/Uniswap/uniswap-sdk-core/actions?query=workflow%3A%22Unit+Tests%22)
 [![Lint](https://github.com/Uniswap/uniswap-sdk-core/workflows/Lint/badge.svg)](https://github.com/Uniswap/uniswap-sdk-core/actions?query=workflow%3ALint)
