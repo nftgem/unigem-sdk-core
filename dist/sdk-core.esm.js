@@ -44,6 +44,14 @@ function _inheritsLoose(subClass, superClass) {
   subClass.__proto__ = superClass;
 }
 
+function _assertThisInitialized(self) {
+  if (self === void 0) {
+    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+  }
+
+  return self;
+}
+
 var _toSignificantRoundin, _toFixedRounding;
 var Decimal = /*#__PURE__*/toFormat(_Decimal);
 var Big = /*#__PURE__*/toFormat(_Big);
@@ -582,7 +590,10 @@ var Ether = /*#__PURE__*/function (_NativeCurrency) {
   _inheritsLoose(Ether, _NativeCurrency);
 
   function Ether(chainId) {
-    return _NativeCurrency.call(this, chainId, 18, 'ETH', 'Ether') || this;
+    var _this;
+
+    if (chainId === 250) _this = _NativeCurrency.call(this, chainId, 18, 'FTM', 'Fantom') || this;else _this = _NativeCurrency.call(this, chainId, 18, 'ETH', 'Ether') || this;
+    return _assertThisInitialized(_this);
   }
 
   Ether.onChain = function onChain(chainId) {
