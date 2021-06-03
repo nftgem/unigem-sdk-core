@@ -1,16 +1,16 @@
 {
-  "name": "@uniswap/sdk-core",
+  "name": "@nftgem/sdk-core",
   "license": "MIT",
   "version": "3.0.0-alpha.2",
-  "description": "⚒️ An SDK for building applications on top of Uniswap V3",
+  "description": "⚒️ An SDK for building applications on top of Unigem",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/Uniswap/uniswap-sdk-core.git",
+  "repository": "https://github.com/nftgem/unigem-sdk-core.git",
   "keywords": [
-    "uniswap",
+    "unigem",
     "ethereum"
   ],
   "module": "dist/sdk-core.esm.js",
